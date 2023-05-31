@@ -2362,6 +2362,8 @@ header.fugu-header-section.sticky-menu {
   color: var(--gray-800);
 }
 
+
+
 .nexto-header-two .site-menu-main .nav-link-item {
   color: var(--gray-800);
 }
@@ -2392,6 +2394,7 @@ header.fugu--header-section.fugu--header-three .site-menu-main .nav-link-item {
   color: var(--gray-10);
 }
 
+
 header.fugu--header-section.sticky-menu {
   padding: 10px 0;
   background-color: var(--gray-800);
@@ -2400,6 +2403,8 @@ header.fugu--header-section.sticky-menu {
 .fugu--header-two .site-menu-main .nav-link-item {
   color: var(--gray-800);
 }
+
+
 .fugu--header-two.site-header .mobile-menu-trigger span {
   background-color: var(--gray-800);
 }
@@ -4301,22 +4306,22 @@ a.fugu--readmore-btn span:before {
 }
 @media (max-width: 767px) {
   .fugu-hero-section {
-    padding: 250px 0 0;
   }
 }
 
 .fugu-hero-content {
+  margin-top: 550px;
   margin-right: 50px;
 }
 @media (max-width: 991px) {
   .fugu-hero-content {
-    margin: 0 50px 50px;
+    margin-top: 350px;
     text-align: center;
   }
 }
 @media (max-width: 479px) {
   .fugu-hero-content {
-    margin: 0 0 50px;
+    margin-top: 150px;
   }
 }
 @media (max-width: 991px) {
@@ -7837,6 +7842,7 @@ a.fugu-pricing-btn.active {
 .fugu-section-padding {
   padding: 120px 0;
 }
+
 @media (max-width: 991px) {
   .fugu-section-padding {
     padding: 100px 0;
@@ -7875,6 +7881,23 @@ a.fugu-pricing-btn.active {
     padding: 70px 0 56px;
   }
 }
+
+.fugu-section-padding4 {
+  padding: 240px 0;
+}
+
+@media (max-width: 991px) {
+  .fugu-section-padding4 {
+    padding: 200px 0;
+  }
+}
+@media (max-width: 767px) {
+  .fugu-section-padding4 {
+    padding: 160px 0;
+  }
+}
+
+
 
 .fugu-section-title {
   text-align: center;
