@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 @font-face {
   font-family: "onul_baram";
   src: url('../fonts/onul_baram.ttf');
@@ -72,7 +74,7 @@ body
 width: 100%;
 height: 100vh;
 color: rgba(19, 17, 26, 0.8);
-font-family: "Inter", sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 vertical-align: baseline;
@@ -2999,7 +3001,7 @@ footer.fugo--footer-section.white-version .fugo--footer-bottom p {
   border-radius: 3px;
   padding: 20px 55px;
   font-weight: 700;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   width: fit-content;
   position: relative;
   z-index: 1;
@@ -3104,7 +3106,7 @@ footer.fugo--footer-section.white-version .fugo--footer-bottom p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   width: fit-content;
   position: relative;
   z-index: 1;
@@ -3976,7 +3978,7 @@ button#fugu--search-btn {
   line-height: 28px;
   color: var(--gray-10);
   margin: 0 0 10px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--card-data p {
   font-weight: 600;
@@ -4004,7 +4006,7 @@ button#fugu--search-btn {
   line-height: 28px;
   color: var(--gray-10);
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--card-footer .fugu--btn {
   min-width: inherit;
@@ -5575,7 +5577,7 @@ a.fugu-app-btn:last-child {
   line-height: 28px;
   margin-bottom: 10px;
   color: var(--gray-10);
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--team-data p {
   opacity: 0.8;
@@ -5864,7 +5866,7 @@ a.fugu-app-btn:last-child {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 15px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   display: inline-block;
   padding: 0 10px;
   color: white;
@@ -6001,7 +6003,7 @@ a.fugu-app-btn:last-child {
 .fugu-accordion-wrap2 .fugu-accordion-item h4 {
   margin: 0;
   font-weight: 700;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 @media (max-width: 1199px) {
   .fugu-accordion-wrap2 .fugu-accordion-item h4 {
@@ -6050,7 +6052,7 @@ a.fugu-faq-btn:hover {
   font-weight: 600;
   font-size: 20px;
   line-height: 1;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   color: var(--gray-800);
   background-color: transparent;
 }
@@ -6177,7 +6179,7 @@ a.fugu-faq-btn:hover {
   font-weight: 600;
   font-size: 24px;
   line-height: 1;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   color: var(--gray-800);
   background-color: transparent;
 }
@@ -6580,7 +6582,7 @@ a.fugu-popup img:hover {
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu-testimonial-card p {
   font-weight: 500;
@@ -6609,7 +6611,7 @@ a.fugu-popup img:hover {
   font-size: 18px;
   margin-bottom: 0;
   line-height: 1;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu-testimonial-author-data span {
   font-size: 14px;
@@ -7030,7 +7032,7 @@ a.fugu-popup img:hover {
   margin: 0;
   font-weight: 600;
   letter-spacing: -0.5px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 
 .fugu-brand-logo {
@@ -7310,7 +7312,7 @@ PRICING SECTION
   margin: 0;
   font-size: 60px;
   font-weight: 700;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   color: var(--gray-800);
 }
 
@@ -9568,7 +9570,7 @@ a.fugu-pricing-btn.active {
   line-height: 38px;
   font-weight: 600;
   display: inline-block;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   border-bottom: 2px solid var(--gray-800);
 }
 
@@ -9613,7 +9615,7 @@ a.fugu-pricing-btn.active {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu-recent-post-item h6 a {
   color: var(--gray-800);
@@ -9852,7 +9854,7 @@ a.fugu-pricing-btn.active {
 .fugu-comment-author-data h6 {
   font-size: 14px;
   font-weight: 600;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   margin-bottom: 5px;
 }
 .fugu-comment-author-data span {
@@ -10097,7 +10099,7 @@ button#fugu-input-submit:hover {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   color: var(--gray-10);
 }
 .fugu--blog-sidebar-item:last-child {
@@ -10153,7 +10155,7 @@ button#fugu-input-submit:hover {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   margin: 0;
   color: #FFFFFF;
 }
@@ -10349,7 +10351,7 @@ button#fugu-input-submit:hover {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--blog-sidebar-item:last-child {
   margin-bottom: 0;
@@ -10404,7 +10406,7 @@ button#fugu-input-submit:hover {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   margin: 0;
 }
 
@@ -10655,7 +10657,7 @@ button#fugu-input-submit:hover {
   font-weight: 600;
   margin-bottom: 5px;
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--blockquote-user-data p {
   opacity: 0.4;
@@ -10687,7 +10689,7 @@ button#fugu-input-submit:hover {
 }
 .fugu--tags.fugu--tags2 h4 {
   margin-bottom: 30px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 
 .fugu--post-navigation {
@@ -10802,7 +10804,7 @@ button#fugu-input-submit:hover {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 30px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--comment-list {
   background: rgba(90, 75, 124, 0.2);
@@ -10875,7 +10877,7 @@ button#fugu-input-submit:hover {
   object-position: center top;
 }
 .fugu--comment-meta h5 {
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 10px;
@@ -10898,7 +10900,7 @@ button#fugu-input-submit:hover {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 15px;
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
 }
 .fugu--comment-respond-area p {
   color: #FFFFFF;
@@ -11008,7 +11010,7 @@ button#fugu-input-submit:hover {
 }
 
 .fugu--contact-info h4 {
-  font-family: "Inter", sans-serif;
+  font-family:  'Noto Sans KR', sans-serif;
   margin-bottom: 40px;
 }
 .fugu--contact-info ul li {
