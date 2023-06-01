@@ -144,6 +144,10 @@
   margin-left: auto;
 }
 
+.webtoon-img{
+  width: 0%;
+}
+
 @media (min-width: 992px) {
   .site-header > .container-fluid .sub-menu.megamenu {
     left: 50%;
