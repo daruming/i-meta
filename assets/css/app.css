@@ -63,12 +63,14 @@ padding: 0px;
 html
 {
 box-sizing: border-box;
-height: 100%;
+width: 100%;
+height: 100vh;
 }
 
 body
 {
-height: 100%;
+width: 100%;
+height: 100vh;
 color: rgba(19, 17, 26, 0.8);
 font-family: "Inter", sans-serif;
 -webkit-font-smoothing: antialiased;
@@ -2349,7 +2351,6 @@ header.fugu-header-section {
   z-index: 9;
   width: 100%;
   top: 0;
-  padding: 13px 0;
   transition: all 0.4s;
 }
 
@@ -4311,8 +4312,8 @@ a.fugu--readmore-btn span:before {
 
 .fugu-hero-content {
   margin-top: 550px;
-  margin-right: 50px;
 }
+
 @media (max-width: 991px) {
   .fugu-hero-content {
     margin-top: 350px;
@@ -4321,7 +4322,7 @@ a.fugu--readmore-btn span:before {
 }
 @media (max-width: 479px) {
   .fugu-hero-content {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
 @media (max-width: 991px) {
@@ -5838,7 +5839,6 @@ a.fugu-app-btn:last-child {
 
 .fugu--iconbox-wrap {
   z-index: 0;
-  padding: 0 15px;
   text-align: center;
   position: relative;
   margin-bottom: 24px;
@@ -5850,7 +5850,7 @@ a.fugu-app-btn:last-child {
 }
 .fugu--iconbox-wrap:before {
   content: " ";
-  right: -68px;
+  /*right: -68px;*/
   top: 106px;
   width: 108px;
   height: 2px;
@@ -5894,7 +5894,6 @@ a.fugu-app-btn:last-child {
 .fugu--roadmap-v2 .fugu--iconbox-wrap {
   text-align: left;
   padding: 0;
-  padding-right: 30px;
 }
 .fugu--roadmap-v2 .fugu--iconbox-wrap:before {
   content: none;
@@ -5920,20 +5919,17 @@ a.fugu-app-btn:last-child {
 }
 
 .fugu--iconbox-wrap2 {
-  padding: 40px;
-  border-radius: 3px;
+  border-radius: 4px;
   background: #636675;
 }
 
 .fugu--iconbox-wrap3 {
-  padding: 40px;
-  border-radius: 3px;
+  border-radius: 4px;
   background: linear-gradient(-180deg, #636675, #17181A);
 }
 
 @media (max-width: 991px) {
   .fugu--iconbox-wrap3 {
-    padding: 30px;
   }
 }
 .fugu--iconbox-wrap3 .fugu--iconbox-thumb {
@@ -5943,7 +5939,6 @@ a.fugu-app-btn:last-child {
   transition: all 0.4s;
 }
 .fugu--iconbox-wrap3 .fugu--iconbox-data h4 {
-  padding: 0;
   background-color: transparent;
 }
 
@@ -5969,7 +5964,6 @@ a.fugu-app-btn:last-child {
   color: #FFFFFF;
 }
 .fugu--iconbox-wrap5 .fugu--iconbox-data a img {
-  margin-left: 10px;
 }
 
 .fugu-accordion-item {
